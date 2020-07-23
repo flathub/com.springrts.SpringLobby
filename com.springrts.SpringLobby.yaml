@@ -12,8 +12,8 @@ finish-args:
 - --share=ipc
 - --device=dri
 - --socket=pulseaudio
-- --filesystem=~/.spring
-- --filesystem=~/.springlobby
+- --filesystem=~/.spring:create
+- --filesystem=~/.springlobby:create
 
 modules:
 - name: glu
