@@ -91,8 +91,8 @@ modules:
   sources:
   - type: git
     url: https://github.com/springlobby/springlobby.git
-    tag: '0.270'
-    commit: '48257e6890e360e5d947a3fee68d0d48b2ca1846'
+    tag: '0.271'
+    commit: '077b6a0fb487c708919ec2f7d7a46908ed6b7e7d'
   - type: file
     path: springlobby.appdata.xml
   post-install:
