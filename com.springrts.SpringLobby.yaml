@@ -39,6 +39,11 @@ modules:
   - type: archive
     url: https://ftp.fau.de/gentoo/distfiles/alure-1.2.tar.bz2
     sha256: "465e6adae68927be3a023903764662d64404e40c4c152d160e3a8838b1d70f71"
+  cleanup:
+    - /bin/alure*
+    - /include/AL
+    - /share/doc/alure
+    - /lib/pkgconfig/alure*
 
 - name: wxwidgets
   rm-configure: true
@@ -66,6 +71,8 @@ modules:
     - /bin
     - /lib/wx
     - /share/bakefile
+    - /include/wx-*
+    - /share/aclocal/wx*
   sources:
     - type: script
       dest-filename: autogen.sh
@@ -85,6 +92,8 @@ modules:
   - sha256: 8f32d4617390d1c2d16f26a27ab60d97807b35440d45891fa340fc2648b04406
     type: archive
     url: https://dl.bintray.com/boostorg/release/1.69.0/source/boost_1_69_0.tar.bz2
+  cleanup:
+    - /include/boost/
 
 - name: springlobby
   buildsystem: cmake-ninja
