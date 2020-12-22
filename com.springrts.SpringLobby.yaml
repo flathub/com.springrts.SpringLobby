@@ -37,8 +37,8 @@ modules:
   buildsystem: cmake-ninja
   sources:
   - type: archive
-    url: https://github.com/kcat/alure/archive/2b54c0d8b074ff1b84821c791556b3634c11764f.zip
-    sha256: "96da966f02211b1465391ca1ac4d1d425e7896a16b4be8b9c43c7cbd746849ce"
+    url: https://ftp.fau.de/gentoo/distfiles/alure-1.2.tar.bz2
+    sha256: "465e6adae68927be3a023903764662d64404e40c4c152d160e3a8838b1d70f71"
 
 - name: wxwidgets
   rm-configure: true
