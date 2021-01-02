@@ -94,9 +94,9 @@ modules:
   - ./bootstrap.sh --prefix=/app --with-libraries=system,thread
   - ./b2 install -j $FLATPAK_BUILDER_N_JOBS
   sources:
-  - sha256: 8f32d4617390d1c2d16f26a27ab60d97807b35440d45891fa340fc2648b04406
+  - sha256: 953db31e016db7bb207f11432bef7df100516eeb746843fa0486a222e3fd49cb
     type: archive
-    url: https://dl.bintray.com/boostorg/release/1.69.0/source/boost_1_69_0.tar.bz2
+    url: https://dl.bintray.com/boostorg/release/1.75.0/source/boost_1_75_0.tar.bz2
   cleanup:
     - /include/boost
     - /lib/libboost*.a
