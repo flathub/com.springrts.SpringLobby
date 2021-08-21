@@ -94,9 +94,9 @@ modules:
   - ./bootstrap.sh --prefix=/app --with-libraries=system,thread
   - ./b2 install -j $FLATPAK_BUILDER_N_JOBS
   sources:
-  - sha256: 953db31e016db7bb207f11432bef7df100516eeb746843fa0486a222e3fd49cb
+  - sha256: fc9f85fc030e233142908241af7a846e60630aa7388de9a5fafb1f3a26840854
     type: archive
-    url: https://dl.bintray.com/boostorg/release/1.75.0/source/boost_1_75_0.tar.bz2
+    url: https://ftp.fau.de/gentoo/distfiles/boost_1_77_0.tar.bz2
   cleanup:
     - /include/boost
     - /lib/libboost*.a
