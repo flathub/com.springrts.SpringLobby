@@ -100,7 +100,7 @@ modules:
   cleanup:
     - /include/boost
     - /lib/libboost*.a
-
+    - /lib/cmake
 - name: springlobby
   buildsystem: cmake-ninja
   sources:
