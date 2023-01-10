@@ -1,6 +1,6 @@
 app-id: com.springrts.SpringLobby
 runtime: org.freedesktop.Platform
-runtime-version: '20.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: springlobby
 rename-icon: springlobby
@@ -106,8 +106,8 @@ modules:
   sources:
   - type: git
     url: https://github.com/springlobby/springlobby.git
-    tag: '0.273'
-    commit: '5a4ba9c943d593fb47b938e57c3609a2eaa128c3'
+    tag: '0.274'
+    commit: '53b960cdd409f62b05ee994b75954e19a9847910'
   - type: file
     path: springlobby.appdata.xml
   post-install:
