@@ -16,23 +16,7 @@ finish-args:
 - --filesystem=~/.springlobby:create
 
 modules:
-- name: glu
-  sources:
-    - type: archive
-      url: http://archive.ubuntu.com/ubuntu/pool/main/libg/libglu/libglu_9.0.1.orig.tar.gz
-      sha256: "f6f484cfcd51e489afe88031afdea1e173aa652697e4c19ddbcb8260579a10f7"
-  cleanup: 
-    - /include
-    - /lib/*.a
-    - /lib/*.la
-    - /lib/pkgconfig
-    - /man
-    - /share/aclocal
-    - /share/doc
-    - /share/gtk-doc
-    - /share/man
-    - /share/pkgconfig
-
+- shared-modules/glu/glu-9.json
 - name: alure
   buildsystem: cmake-ninja
   config-opts:
